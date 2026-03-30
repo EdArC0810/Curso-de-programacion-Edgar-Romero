@@ -83,8 +83,30 @@ else:
 
 # Ejercicio 9
 
-print("Bienvenido jugadores, este es el juego del Piedra, Papel o Tijera")
+print("Bienvenido al programa de asignacion de becas universitarias.\n")
 
-jugador1 = print(input("Jugador 1, ¿Que  vas a sacar?: "))
-jugador2 = print(input("Jugador 2, ¿Que  vas a sacar?: ")),
+promedio = float(input("Por favor, ingresa tu promedio académico:"))
 
+ingresos = int(input("\nPor favor, ingresa tus ingresos familiares mensuales:"))
+
+conducta = bool(input("¿Tienes buena conducta? (True/False) "))
+
+if (promedio > 8.5 and ingresos < 2000) and conducta:
+    print("\n¡Felicidades! Has sido seleccionado para recibir una beca universitaria.")
+else:
+    print("\nLo sentimos, no cumples con los criterios para recibir una beca universitaria.")
+
+
+# Ejercicio #10
+
+print("Hola, Bienvenido al juego de piedra papel o tijera")
+
+jugador1 = input ("Jugador 1 Elige... Piedra, Papel o Tijera: ").lower()
+jugador2 = input ("Jugador 2 Elige... Piedra, Papel o Tijera: ").lower()
+
+if jugador1 == jugador2:
+    print (f"Empate, los dos han elegido {jugador1}")
+elif (jugador1 == "piedra" and jugador2 == "tijera") or (jugador1 == "papel" and jugador2 == "piedra") or (jugador1 == "tijera" and jugador2 == "papel"):
+    print(f"Resultado: Jugador 1 ha ganado, {jugador1} le gana a {jugador2}")
+else:
+        print(f"Resultado: Jugador 2 ha ganado, {jugador2} le gana a {jugador1}")
