@@ -1,0 +1,179 @@
+
+#titulo-principal {
+  color: #071955;
+  text-align: center;
+}
+
+.parrafo-destacado {
+  font-weight: bold;
+  color: #555;
+}
+
+p {
+  font-size: 18px;
+  margin: 20px;
+  background-color: #ffffff;
+}
+
+.tarjeta-producto {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid #ab0505;
+}
+
+h1, h2, h3 {
+  font-family: 'Verdana', sans-serif;
+}
+
+#menu-principal a {
+  text-decoration: none;
+  color: black;
+}
+
+:root {
+  --color-primario: #d9534f; 
+  --color-texto-claro: #ffffff;
+  --fuente-titulos: 'Georgia', serif;
+}
+
+.boton-cancelar {
+  background-color: var(--color-primario);
+  color: var(--color-texto-claro);
+}
+
+.titulo-seccion {
+  font-family: var(--fuente-titulos);
+  color: var(--color-primario);
+}
+
+:root {
+  --color-primario: #d9534f; 
+  --color-texto-claro: #ffffff;
+  --fuente-titulos: 'Georgia', serif;
+}
+
+.boton-cancelar {
+  background-color: var(--color-primario);
+  color: var(--color-texto-claro);
+}
+
+.titulo-seccion {
+  font-family: var(--fuente-titulos);
+  color: var(--color-primario);
+}
+
+.articulo p {
+  line-height: 1.7;
+  text-align: justify;
+  font-size: 1.1em;
+}
+
+.hero-banner {
+  background-image: linear-gradient(#03259e,#9d0505);
+  color: #929ad1;
+  padding: 80px;
+  border-radius: 10px;
+}
+
+.galeria-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.foto {
+  margin: 40px;
+}
+
+.boton-ayuda {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #004d98;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.panel {
+  width: 100%;
+  display: block;
+  background-color: #f1f1f1;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+@media (min-width: 800px) {
+  .contenedor-responsivo {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .panel {
+    width: 50%;
+  }
+}
+
+:root {
+  --color-borde: #a50044;
+  --color-fondo: #ffffff;
+  --fuente-principal: Arial, sans-serif;
+}
+
+.tarjeta-perfil {
+  font-family: var(--fuente-principal);
+  background-color: var(--color-fondo);
+  padding: 20px;
+  margin: 20px auto;
+  border: 2px solid var(--color-borde);
+  border-radius: 10px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.tarjeta-perfil img {
+  border-radius: 50%;
+  width: 200px;
+  height: 205px;
+}
+
+.tarjeta-perfil ul {
+  display: flex;
+  gap:50px;
+  list-style: none;
+  padding: 0px;
+  margin-top: 25px;
+}
+
+@media (min-width: 100px) {
+  .tarjeta-perfil {
+    width: 600px;
+  }
+}
+
+img {
+  max-width: 76%;
+  height: auto;
+  display: block;
+}
+
+body {
+  color: #232343; 
+  background-color: #504c5f;
+  line-height: 1.5;
+}
+
+.tarjeta-producto {
+  width: 300px;
+  padding: 15px; /* Espacio interno para que el texto no toque el borde [cite: 26] */
+  border: 1px solid #830707; [cite: 27]
+  margin: 20px auto; /* Centra la tarjeta horizontalmente y agrega espacio vertical [cite: 28] */
+  background-color: #0f0445; [cite: 29]
+  overflow: hidden
+}
