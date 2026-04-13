@@ -171,9 +171,9 @@ body {
 
 .tarjeta-producto {
   width: 300px;
-  padding: 15px; /* Espacio interno para que el texto no toque el borde [cite: 26] */
+  padding: 15px; 
   border: 1px solid #830707; [cite: 27]
-  margin: 20px auto; /* Centra la tarjeta horizontalmente y agrega espacio vertical [cite: 28] */
+  margin: 20px auto; 
   background-color: #0f0445; [cite: 29]
   overflow: hidden
 }
